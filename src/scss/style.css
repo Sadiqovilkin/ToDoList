@@ -1,0 +1,44 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px grey;
+}
+form input {
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 10px 0px;
+}
+form button {
+  background-color: rgb(52, 52, 157);
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+form button:disabled {
+  background-color: gray;
+  color: black;
+  cursor: not-allowed;
+}
+
+.data table tr td p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.data table tr td i {
+  font-size: 30px;
+  color: black;
+}
+.data table #deleted {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
